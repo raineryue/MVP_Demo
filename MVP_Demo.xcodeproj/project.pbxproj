@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D556F19C1E82665300C2ACD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F19B1E82665300C2ACD6 /* main.m */; };
-		D556F19F1E82665300C2ACD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F19E1E82665300C2ACD6 /* AppDelegate.m */; };
-		D556F1A21E82665300C2ACD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1A11E82665300C2ACD6 /* ViewController.m */; };
-		D556F1A51E82665300C2ACD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556F1A31E82665300C2ACD6 /* Main.storyboard */; };
+		D524F3371E84FE5A006B85ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3091E84FE5A006B85ED /* AppDelegate.m */; };
+		D524F3381E84FE5A006B85ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F30A1E84FE5A006B85ED /* main.m */; };
+		D524F3391E84FE5A006B85ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D524F30F1E84FE5A006B85ED /* Info.plist */; };
+		D524F33A1E84FE5A006B85ED /* RYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F31E1E84FE5A006B85ED /* RYVideoViewController.m */; };
+		D524F33B1E84FE5A006B85ED /* RYVideoRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3221E84FE5A006B85ED /* RYVideoRequestModel.m */; };
+		D524F33C1E84FE5A006B85ED /* RYVideoResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3251E84FE5A006B85ED /* RYVideoResponseModel.m */; };
+		D524F33D1E84FE5A006B85ED /* RYVideoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3281E84FE5A006B85ED /* RYVideoPresenter.m */; };
+		D524F33E1E84FE5A006B85ED /* RYVideoService.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F32B1E84FE5A006B85ED /* RYVideoService.m */; };
+		D524F33F1E84FE5A006B85ED /* RYVideoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F32F1E84FE5A006B85ED /* RYVideoViewModel.m */; };
+		D524F3401E84FE5A006B85ED /* RYVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3321E84FE5A006B85ED /* RYVideoView.m */; };
+		D524F3411E84FE5A006B85ED /* RYNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D524F3351E84FE5A006B85ED /* RYNetworkUtil.m */; };
 		D556F1A71E82665300C2ACD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556F1A61E82665300C2ACD6 /* Assets.xcassets */; };
-		D556F1AA1E82665300C2ACD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556F1A81E82665300C2ACD6 /* LaunchScreen.storyboard */; };
 		D556F1B51E82665300C2ACD6 /* MVP_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1B41E82665300C2ACD6 /* MVP_DemoTests.m */; };
 		D556F1C01E82665300C2ACD6 /* MVP_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1BF1E82665300C2ACD6 /* MVP_DemoUITests.m */; };
-		D556F1CF1E826AB100C2ACD6 /* VideoResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1CE1E826AB100C2ACD6 /* VideoResponseModel.m */; };
-		D556F1D21E826BFE00C2ACD6 /* VideoRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1D11E826BFE00C2ACD6 /* VideoRequestModel.m */; };
-		D556F1D51E826C1D00C2ACD6 /* VideoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1D41E826C1D00C2ACD6 /* VideoViewModel.m */; };
-		D556F1DE1E826D0500C2ACD6 /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1DD1E826D0500C2ACD6 /* NetworkUtil.m */; };
-		D556F1E21E8280CB00C2ACD6 /* VideoService.m in Sources */ = {isa = PBXBuildFile; fileRef = D556F1E11E8280CB00C2ACD6 /* VideoService.m */; };
+		D5DAEAC41E850CEA00E7161A /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAC31E850CEA00E7161A /* RYNavigationController.m */; };
+		D5DAEAC71E85117200E7161A /* RYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAC61E85117200E7161A /* RYHomeViewController.m */; };
+		D5DAEACA1E85136600E7161A /* UINavigationBar+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAC91E85136600E7161A /* UINavigationBar+Extention.m */; };
+		D5DAEAD01E85246600E7161A /* RYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEACF1E85246600E7161A /* RYTabBarController.m */; };
+		D5DAEAD41E8524BF00E7161A /* RYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAD31E8524BF00E7161A /* RYTabBar.m */; };
+		D5DAEAD71E85250A00E7161A /* RYBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAD61E85250A00E7161A /* RYBarButtonItem.m */; };
+		D5DAEAF11E85289600E7161A /* RYMyselfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAF01E85289600E7161A /* RYMyselfViewController.m */; };
+		D5DAEAFD1E8528E500E7161A /* RYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAEAFC1E8528E500E7161A /* RYDiscoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,32 +49,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D524F3081E84FE5A006B85ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D524F3091E84FE5A006B85ED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D524F30A1E84FE5A006B85ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D524F30F1E84FE5A006B85ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D524F31D1E84FE5A006B85ED /* RYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoViewController.h; sourceTree = "<group>"; };
+		D524F31E1E84FE5A006B85ED /* RYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoViewController.m; sourceTree = "<group>"; };
+		D524F3211E84FE5A006B85ED /* RYVideoRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoRequestModel.h; sourceTree = "<group>"; };
+		D524F3221E84FE5A006B85ED /* RYVideoRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoRequestModel.m; sourceTree = "<group>"; };
+		D524F3241E84FE5A006B85ED /* RYVideoResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoResponseModel.h; sourceTree = "<group>"; };
+		D524F3251E84FE5A006B85ED /* RYVideoResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoResponseModel.m; sourceTree = "<group>"; };
+		D524F3271E84FE5A006B85ED /* RYVideoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoPresenter.h; sourceTree = "<group>"; };
+		D524F3281E84FE5A006B85ED /* RYVideoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoPresenter.m; sourceTree = "<group>"; };
+		D524F32A1E84FE5A006B85ED /* RYVideoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoService.h; sourceTree = "<group>"; };
+		D524F32B1E84FE5A006B85ED /* RYVideoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoService.m; sourceTree = "<group>"; };
+		D524F32E1E84FE5A006B85ED /* RYVideoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoViewModel.h; sourceTree = "<group>"; };
+		D524F32F1E84FE5A006B85ED /* RYVideoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoViewModel.m; sourceTree = "<group>"; };
+		D524F3311E84FE5A006B85ED /* RYVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYVideoView.h; sourceTree = "<group>"; };
+		D524F3321E84FE5A006B85ED /* RYVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYVideoView.m; sourceTree = "<group>"; };
+		D524F3341E84FE5A006B85ED /* RYNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkUtil.h; sourceTree = "<group>"; };
+		D524F3351E84FE5A006B85ED /* RYNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkUtil.m; sourceTree = "<group>"; };
 		D556F1971E82665300C2ACD6 /* MVP_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D556F19B1E82665300C2ACD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D556F19D1E82665300C2ACD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D556F19E1E82665300C2ACD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D556F1A01E82665300C2ACD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D556F1A11E82665300C2ACD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D556F1A41E82665300C2ACD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D556F1A61E82665300C2ACD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D556F1A91E82665300C2ACD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D556F1AB1E82665300C2ACD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D556F1B01E82665300C2ACD6 /* MVP_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D556F1B41E82665300C2ACD6 /* MVP_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVP_DemoTests.m; sourceTree = "<group>"; };
 		D556F1B61E82665300C2ACD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D556F1BB1E82665300C2ACD6 /* MVP_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D556F1BF1E82665300C2ACD6 /* MVP_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVP_DemoUITests.m; sourceTree = "<group>"; };
 		D556F1C11E82665300C2ACD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D556F1CD1E826AB100C2ACD6 /* VideoResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoResponseModel.h; sourceTree = "<group>"; };
-		D556F1CE1E826AB100C2ACD6 /* VideoResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoResponseModel.m; sourceTree = "<group>"; };
-		D556F1D01E826BFE00C2ACD6 /* VideoRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRequestModel.h; sourceTree = "<group>"; };
-		D556F1D11E826BFE00C2ACD6 /* VideoRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRequestModel.m; sourceTree = "<group>"; };
-		D556F1D31E826C1D00C2ACD6 /* VideoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewModel.h; sourceTree = "<group>"; };
-		D556F1D41E826C1D00C2ACD6 /* VideoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewModel.m; sourceTree = "<group>"; };
-		D556F1DC1E826D0500C2ACD6 /* NetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
-		D556F1DD1E826D0500C2ACD6 /* NetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
-		D556F1E01E8280CB00C2ACD6 /* VideoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoService.h; sourceTree = "<group>"; };
-		D556F1E11E8280CB00C2ACD6 /* VideoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoService.m; sourceTree = "<group>"; };
+		D5DAEAC21E850CEA00E7161A /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
+		D5DAEAC31E850CEA00E7161A /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
+		D5DAEAC51E85117200E7161A /* RYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeViewController.h; sourceTree = "<group>"; };
+		D5DAEAC61E85117200E7161A /* RYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeViewController.m; sourceTree = "<group>"; };
+		D5DAEAC81E85136600E7161A /* UINavigationBar+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extention.h"; sourceTree = "<group>"; };
+		D5DAEAC91E85136600E7161A /* UINavigationBar+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extention.m"; sourceTree = "<group>"; };
+		D5DAEACE1E85246600E7161A /* RYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBarController.h; sourceTree = "<group>"; };
+		D5DAEACF1E85246600E7161A /* RYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBarController.m; sourceTree = "<group>"; };
+		D5DAEAD21E8524BF00E7161A /* RYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBar.h; sourceTree = "<group>"; };
+		D5DAEAD31E8524BF00E7161A /* RYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBar.m; sourceTree = "<group>"; };
+		D5DAEAD51E85250A00E7161A /* RYBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBarButtonItem.h; sourceTree = "<group>"; };
+		D5DAEAD61E85250A00E7161A /* RYBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBarButtonItem.m; sourceTree = "<group>"; };
+		D5DAEAEF1E85289600E7161A /* RYMyselfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMyselfViewController.h; sourceTree = "<group>"; };
+		D5DAEAF01E85289600E7161A /* RYMyselfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMyselfViewController.m; sourceTree = "<group>"; };
+		D5DAEAFB1E8528E500E7161A /* RYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDiscoverViewController.h; sourceTree = "<group>"; };
+		D5DAEAFC1E8528E500E7161A /* RYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDiscoverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +120,266 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D524F3061E84FE5A006B85ED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3071E84FE5A006B85ED /* Application(应用程序) */,
+				D524F30B1E84FE5A006B85ED /* General(公共基类) */,
+				D524F30C1E84FE5A006B85ED /* Macro(宏定义和常量) */,
+				D524F30D1E84FE5A006B85ED /* Resuorces(资源文件) */,
+				D524F3101E84FE5A006B85ED /* Sections(业务模块) */,
+				D524F3331E84FE5A006B85ED /* Utilities(工具类) */,
+				D524F3361E84FE5A006B85ED /* Vendors(三方架构) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D524F3071E84FE5A006B85ED /* Application(应用程序) */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3081E84FE5A006B85ED /* AppDelegate.h */,
+				D524F3091E84FE5A006B85ED /* AppDelegate.m */,
+				D524F30A1E84FE5A006B85ED /* main.m */,
+			);
+			path = "Application(应用程序)";
+			sourceTree = "<group>";
+		};
+		D524F30B1E84FE5A006B85ED /* General(公共基类) */ = {
+			isa = PBXGroup;
+			children = (
+				D591855C1E8509D00002BA25 /* Categories */,
+				D591855D1E8509D00002BA25 /* Controllers */,
+				D591855E1E8509D00002BA25 /* Models */,
+				D591855F1E8509D00002BA25 /* Presenters */,
+				D59185601E8509D00002BA25 /* Services */,
+				D5DAEAD11E8524A500E7161A /* Views */,
+			);
+			path = "General(公共基类)";
+			sourceTree = "<group>";
+		};
+		D524F30C1E84FE5A006B85ED /* Macro(宏定义和常量) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Macro(宏定义和常量)";
+			sourceTree = "<group>";
+		};
+		D524F30D1E84FE5A006B85ED /* Resuorces(资源文件) */ = {
+			isa = PBXGroup;
+			children = (
+				D524F30E1E84FE5A006B85ED /* Plist */,
+			);
+			path = "Resuorces(资源文件)";
+			sourceTree = "<group>";
+		};
+		D524F30E1E84FE5A006B85ED /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				D524F30F1E84FE5A006B85ED /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		D524F3101E84FE5A006B85ED /* Sections(业务模块) */ = {
+			isa = PBXGroup;
+			children = (
+				D59185521E85090D0002BA25 /* Home */,
+				D524F3111E84FE5A006B85ED /* Login */,
+				D524F31B1E84FE5A006B85ED /* Video */,
+				D5DAEAD81E85283300E7161A /* Discover */,
+				D5DAEAD91E85283300E7161A /* MySelf */,
+			);
+			path = "Sections(业务模块)";
+			sourceTree = "<group>";
+		};
+		D524F3111E84FE5A006B85ED /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3121E84FE5A006B85ED /* Controllers */,
+				D524F3131E84FE5A006B85ED /* Models */,
+				D524F3161E84FE5A006B85ED /* Presenters */,
+				D524F3171E84FE5A006B85ED /* Services */,
+				D524F3181E84FE5A006B85ED /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D524F3121E84FE5A006B85ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D524F3131E84FE5A006B85ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3141E84FE5A006B85ED /* RequestModel */,
+				D524F3151E84FE5A006B85ED /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D524F3141E84FE5A006B85ED /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D524F3151E84FE5A006B85ED /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D524F3161E84FE5A006B85ED /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D524F3171E84FE5A006B85ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D524F3181E84FE5A006B85ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3191E84FE5A006B85ED /* ViewModels */,
+				D524F31A1E84FE5A006B85ED /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D524F3191E84FE5A006B85ED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D524F31A1E84FE5A006B85ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D524F31B1E84FE5A006B85ED /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D524F31C1E84FE5A006B85ED /* Controllers */,
+				D524F31F1E84FE5A006B85ED /* Models */,
+				D524F3261E84FE5A006B85ED /* Presenters */,
+				D524F3291E84FE5A006B85ED /* Services */,
+				D524F32C1E84FE5A006B85ED /* Views */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		D524F31C1E84FE5A006B85ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D524F31D1E84FE5A006B85ED /* RYVideoViewController.h */,
+				D524F31E1E84FE5A006B85ED /* RYVideoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D524F31F1E84FE5A006B85ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3201E84FE5A006B85ED /* RequestModel */,
+				D524F3231E84FE5A006B85ED /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D524F3201E84FE5A006B85ED /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3211E84FE5A006B85ED /* RYVideoRequestModel.h */,
+				D524F3221E84FE5A006B85ED /* RYVideoRequestModel.m */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D524F3231E84FE5A006B85ED /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3241E84FE5A006B85ED /* RYVideoResponseModel.h */,
+				D524F3251E84FE5A006B85ED /* RYVideoResponseModel.m */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D524F3261E84FE5A006B85ED /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3271E84FE5A006B85ED /* RYVideoPresenter.h */,
+				D524F3281E84FE5A006B85ED /* RYVideoPresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D524F3291E84FE5A006B85ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D524F32A1E84FE5A006B85ED /* RYVideoService.h */,
+				D524F32B1E84FE5A006B85ED /* RYVideoService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D524F32C1E84FE5A006B85ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D524F32D1E84FE5A006B85ED /* ViewModels */,
+				D524F3301E84FE5A006B85ED /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D524F32D1E84FE5A006B85ED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D524F32E1E84FE5A006B85ED /* RYVideoViewModel.h */,
+				D524F32F1E84FE5A006B85ED /* RYVideoViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D524F3301E84FE5A006B85ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3311E84FE5A006B85ED /* RYVideoView.h */,
+				D524F3321E84FE5A006B85ED /* RYVideoView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D524F3331E84FE5A006B85ED /* Utilities(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				D524F3341E84FE5A006B85ED /* RYNetworkUtil.h */,
+				D524F3351E84FE5A006B85ED /* RYNetworkUtil.m */,
+			);
+			path = "Utilities(工具类)";
+			sourceTree = "<group>";
+		};
+		D524F3361E84FE5A006B85ED /* Vendors(三方架构) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vendors(三方架构)";
+			sourceTree = "<group>";
+		};
 		D556F18E1E82665200C2ACD6 = {
 			isa = PBXGroup;
 			children = (
@@ -116,19 +403,7 @@
 		D556F1991E82665300C2ACD6 /* MVP_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1DF1E8280A700C2ACD6 /* Service */,
-				D556F1DB1E826CC200C2ACD6 /* Utility */,
-				D556F1D81E826C5700C2ACD6 /* Presenter */,
-				D556F1D71E826C4900C2ACD6 /* Views */,
-				D556F1D61E826C2800C2ACD6 /* Model */,
-				D556F19D1E82665300C2ACD6 /* AppDelegate.h */,
-				D556F19E1E82665300C2ACD6 /* AppDelegate.m */,
-				D556F1A01E82665300C2ACD6 /* ViewController.h */,
-				D556F1A11E82665300C2ACD6 /* ViewController.m */,
-				D556F1A31E82665300C2ACD6 /* Main.storyboard */,
-				D556F1A61E82665300C2ACD6 /* Assets.xcassets */,
-				D556F1A81E82665300C2ACD6 /* LaunchScreen.storyboard */,
-				D556F1AB1E82665300C2ACD6 /* Info.plist */,
+				D524F3061E84FE5A006B85ED /* Classes */,
 				D556F19A1E82665300C2ACD6 /* Supporting Files */,
 			);
 			path = MVP_Demo;
@@ -137,7 +412,7 @@
 		D556F19A1E82665300C2ACD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D556F19B1E82665300C2ACD6 /* main.m */,
+				D556F1A61E82665300C2ACD6 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,65 +435,371 @@
 			path = MVP_DemoUITests;
 			sourceTree = "<group>";
 		};
-		D556F1D61E826C2800C2ACD6 /* Model */ = {
+		D59185521E85090D0002BA25 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1DA1E826C8400C2ACD6 /* ViewModel */,
-				D556F1D91E826C7B00C2ACD6 /* DataModel */,
+				D59185531E85090D0002BA25 /* Controllers */,
+				D59185541E85090D0002BA25 /* Models */,
+				D59185571E85090D0002BA25 /* Presenters */,
+				D59185581E85090D0002BA25 /* Services */,
+				D59185591E85090D0002BA25 /* Views */,
 			);
-			name = Model;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		D556F1D71E826C4900C2ACD6 /* Views */ = {
+		D59185531E85090D0002BA25 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D5DAEAC51E85117200E7161A /* RYHomeViewController.h */,
+				D5DAEAC61E85117200E7161A /* RYHomeViewController.m */,
 			);
-			name = Views;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		D556F1D81E826C5700C2ACD6 /* Presenter */ = {
+		D59185541E85090D0002BA25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D59185551E85090D0002BA25 /* RequestModel */,
+				D59185561E85090D0002BA25 /* ResponseModel */,
 			);
-			name = Presenter;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		D556F1D91E826C7B00C2ACD6 /* DataModel */ = {
+		D59185551E85090D0002BA25 /* RequestModel */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1CD1E826AB100C2ACD6 /* VideoResponseModel.h */,
-				D556F1CE1E826AB100C2ACD6 /* VideoResponseModel.m */,
-				D556F1D01E826BFE00C2ACD6 /* VideoRequestModel.h */,
-				D556F1D11E826BFE00C2ACD6 /* VideoRequestModel.m */,
 			);
-			name = DataModel;
+			path = RequestModel;
 			sourceTree = "<group>";
 		};
-		D556F1DA1E826C8400C2ACD6 /* ViewModel */ = {
+		D59185561E85090D0002BA25 /* ResponseModel */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1D31E826C1D00C2ACD6 /* VideoViewModel.h */,
-				D556F1D41E826C1D00C2ACD6 /* VideoViewModel.m */,
 			);
-			name = ViewModel;
+			path = ResponseModel;
 			sourceTree = "<group>";
 		};
-		D556F1DB1E826CC200C2ACD6 /* Utility */ = {
+		D59185571E85090D0002BA25 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1DC1E826D0500C2ACD6 /* NetworkUtil.h */,
-				D556F1DD1E826D0500C2ACD6 /* NetworkUtil.m */,
 			);
-			name = Utility;
+			path = Presenters;
 			sourceTree = "<group>";
 		};
-		D556F1DF1E8280A700C2ACD6 /* Service */ = {
+		D59185581E85090D0002BA25 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D556F1E01E8280CB00C2ACD6 /* VideoService.h */,
-				D556F1E11E8280CB00C2ACD6 /* VideoService.m */,
 			);
-			name = Service;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D59185591E85090D0002BA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D591855A1E85090D0002BA25 /* ViewModels */,
+				D591855B1E85090D0002BA25 /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D591855A1E85090D0002BA25 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D591855B1E85090D0002BA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D591855C1E8509D00002BA25 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAC81E85136600E7161A /* UINavigationBar+Extention.h */,
+				D5DAEAC91E85136600E7161A /* UINavigationBar+Extention.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D591855D1E8509D00002BA25 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAC21E850CEA00E7161A /* RYNavigationController.h */,
+				D5DAEAC31E850CEA00E7161A /* RYNavigationController.m */,
+				D5DAEACE1E85246600E7161A /* RYTabBarController.h */,
+				D5DAEACF1E85246600E7161A /* RYTabBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D591855E1E8509D00002BA25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D591855F1E8509D00002BA25 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D59185601E8509D00002BA25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5DAEAD11E8524A500E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAD21E8524BF00E7161A /* RYTabBar.h */,
+				D5DAEAD31E8524BF00E7161A /* RYTabBar.m */,
+				D5DAEAD51E85250A00E7161A /* RYBarButtonItem.h */,
+				D5DAEAD61E85250A00E7161A /* RYBarButtonItem.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAD81E85283300E7161A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAF21E8528D500E7161A /* Controllers */,
+				D5DAEAF31E8528D500E7161A /* Models */,
+				D5DAEAF61E8528D500E7161A /* Presenters */,
+				D5DAEAF71E8528D500E7161A /* Services */,
+				D5DAEAF81E8528D500E7161A /* Views */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		D5DAEAD91E85283300E7161A /* MySelf */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEADA1E85284E00E7161A /* Controllers */,
+				D5DAEADB1E85284E00E7161A /* Models */,
+				D5DAEADE1E85284E00E7161A /* Presenters */,
+				D5DAEADF1E85284E00E7161A /* Services */,
+				D5DAEAE01E85284E00E7161A /* Views */,
+			);
+			path = MySelf;
+			sourceTree = "<group>";
+		};
+		D5DAEADA1E85284E00E7161A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAE31E85285600E7161A /* Controllers */,
+				D5DAEAE41E85285600E7161A /* Models */,
+				D5DAEAE71E85285600E7161A /* Presenters */,
+				D5DAEAE81E85285600E7161A /* Services */,
+				D5DAEAE91E85285600E7161A /* Views */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5DAEADB1E85284E00E7161A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEADC1E85284E00E7161A /* RequestModel */,
+				D5DAEADD1E85284E00E7161A /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5DAEADC1E85284E00E7161A /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5DAEADD1E85284E00E7161A /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5DAEADE1E85284E00E7161A /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5DAEADF1E85284E00E7161A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5DAEAE01E85284E00E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAE11E85284E00E7161A /* ViewModels */,
+				D5DAEAE21E85284E00E7161A /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAE11E85284E00E7161A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D5DAEAE21E85284E00E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAE31E85285600E7161A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAEF1E85289600E7161A /* RYMyselfViewController.h */,
+				D5DAEAF01E85289600E7161A /* RYMyselfViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5DAEAE41E85285600E7161A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAE51E85285600E7161A /* RequestModel */,
+				D5DAEAE61E85285600E7161A /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5DAEAE51E85285600E7161A /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5DAEAE61E85285600E7161A /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5DAEAE71E85285600E7161A /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5DAEAE81E85285600E7161A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5DAEAE91E85285600E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAEA1E85285600E7161A /* ViewModels */,
+				D5DAEAEB1E85285600E7161A /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAEA1E85285600E7161A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D5DAEAEB1E85285600E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAF21E8528D500E7161A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAFB1E8528E500E7161A /* RYDiscoverViewController.h */,
+				D5DAEAFC1E8528E500E7161A /* RYDiscoverViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5DAEAF31E8528D500E7161A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAF41E8528D500E7161A /* RequestModel */,
+				D5DAEAF51E8528D500E7161A /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5DAEAF41E8528D500E7161A /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5DAEAF51E8528D500E7161A /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5DAEAF61E8528D500E7161A /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5DAEAF71E8528D500E7161A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5DAEAF81E8528D500E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAEAF91E8528D500E7161A /* ViewModels */,
+				D5DAEAFA1E8528D500E7161A /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5DAEAF91E8528D500E7161A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D5DAEAFA1E8528D500E7161A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +864,7 @@
 		D556F18F1E82665300C2ACD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Rainer;
 				TargetAttributes = {
@@ -328,9 +910,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D556F1AA1E82665300C2ACD6 /* LaunchScreen.storyboard in Resources */,
+				D524F3391E84FE5A006B85ED /* Info.plist in Resources */,
 				D556F1A71E82665300C2ACD6 /* Assets.xcassets in Resources */,
-				D556F1A51E82665300C2ACD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +936,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D556F1D21E826BFE00C2ACD6 /* VideoRequestModel.m in Sources */,
-				D556F1E21E8280CB00C2ACD6 /* VideoService.m in Sources */,
-				D556F1A21E82665300C2ACD6 /* ViewController.m in Sources */,
-				D556F19F1E82665300C2ACD6 /* AppDelegate.m in Sources */,
-				D556F19C1E82665300C2ACD6 /* main.m in Sources */,
-				D556F1DE1E826D0500C2ACD6 /* NetworkUtil.m in Sources */,
-				D556F1D51E826C1D00C2ACD6 /* VideoViewModel.m in Sources */,
-				D556F1CF1E826AB100C2ACD6 /* VideoResponseModel.m in Sources */,
+				D5DAEAC71E85117200E7161A /* RYHomeViewController.m in Sources */,
+				D5DAEAF11E85289600E7161A /* RYMyselfViewController.m in Sources */,
+				D5DAEAD41E8524BF00E7161A /* RYTabBar.m in Sources */,
+				D524F33C1E84FE5A006B85ED /* RYVideoResponseModel.m in Sources */,
+				D524F3401E84FE5A006B85ED /* RYVideoView.m in Sources */,
+				D524F33E1E84FE5A006B85ED /* RYVideoService.m in Sources */,
+				D524F33A1E84FE5A006B85ED /* RYVideoViewController.m in Sources */,
+				D524F33D1E84FE5A006B85ED /* RYVideoPresenter.m in Sources */,
+				D5DAEAD71E85250A00E7161A /* RYBarButtonItem.m in Sources */,
+				D524F3381E84FE5A006B85ED /* main.m in Sources */,
+				D524F3411E84FE5A006B85ED /* RYNetworkUtil.m in Sources */,
+				D5DAEAD01E85246600E7161A /* RYTabBarController.m in Sources */,
+				D524F3371E84FE5A006B85ED /* AppDelegate.m in Sources */,
+				D5DAEACA1E85136600E7161A /* UINavigationBar+Extention.m in Sources */,
+				D5DAEAFD1E8528E500E7161A /* RYDiscoverViewController.m in Sources */,
+				D5DAEAC41E850CEA00E7161A /* RYNavigationController.m in Sources */,
+				D524F33F1E84FE5A006B85ED /* RYVideoViewModel.m in Sources */,
+				D524F33B1E84FE5A006B85ED /* RYVideoRequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,25 +987,6 @@
 			targetProxy = D556F1BC1E82665300C2ACD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D556F1A31E82665300C2ACD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D556F1A41E82665300C2ACD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D556F1A81E82665300C2ACD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D556F1A91E82665300C2ACD6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D556F1C21E82665300C2ACD6 /* Debug */ = {
@@ -509,8 +1081,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = TYM245E8PV;
-				INFOPLIST_FILE = MVP_Demo/Info.plist;
+				INFOPLIST_FILE = "MVP_Demo/Classes/Resuorces(资源文件)/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sand.rainer.MVP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,8 +1095,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = TYM245E8PV;
-				INFOPLIST_FILE = MVP_Demo/Info.plist;
+				INFOPLIST_FILE = "MVP_Demo/Classes/Resuorces(资源文件)/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sand.rainer.MVP-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,6 +1170,7 @@
 				D556F1C61E82665300C2ACD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556F1C71E82665300C2ACD6 /* Build configuration list for PBXNativeTarget "MVP_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +1179,7 @@
 				D556F1C91E82665300C2ACD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556F1CA1E82665300C2ACD6 /* Build configuration list for PBXNativeTarget "MVP_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +1188,7 @@
 				D556F1CC1E82665300C2ACD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
